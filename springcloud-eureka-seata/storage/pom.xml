@@ -13,6 +13,10 @@
 
     <dependencies>
         <dependency>
+            <groupId>io.seata</groupId>
+            <artifactId>seata-discovery-eureka</artifactId>
+        </dependency>
+        <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
             <exclusions>

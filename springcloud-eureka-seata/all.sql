@@ -35,3 +35,12 @@ CREATE TABLE `undo_log` (
   PRIMARY KEY (`id`),
   UNIQUE KEY `ux_undo_log` (`xid`,`branch_id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
+
+
+
+##
+
+select * from account_tbl ;
+select * from order_tbl   ;
+select * from storage_tbl ;
+select * from undo_log    ;
