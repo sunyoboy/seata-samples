@@ -18,6 +18,7 @@
 	<modules>
 		<module>order-server</module>
 		<module>account-server</module>
+		<module>eureka-server</module>
 		<module>storage-server</module>
 	</modules>
 
